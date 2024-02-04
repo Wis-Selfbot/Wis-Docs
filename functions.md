@@ -13,7 +13,7 @@ client.server.send_alert(pydantic.AlertData(
     ))
 ```
 
-## send_log(message)
+## send_log(message: string)
 Sends a message to the console in the UI.
 
 **Example**
