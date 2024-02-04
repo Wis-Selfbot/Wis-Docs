@@ -1,6 +1,6 @@
 # Examples
-
-Example Command:
+Here are some examples to give you a better understand of what's going on.
+## Example Command:
 
 ```py
 @client.command()
@@ -12,7 +12,7 @@ async def sum(ctx, *args):
         await ctx.send("Please provide numbers only.", delete_after=client.server.settings.config.deleteAfter)
 ```
 
-Example Event:
+## Example Event:
 ```py
 @client.listen("on_message")
 async def log_message(message):
