@@ -11,8 +11,15 @@ Welcome to the documentation for custom scripts in Wis.
 
 ## Introduction
 
-Scripts are made in Python. Scripts need to be in `localappdata/wis/scripts` directory.
+Scripts are made in Python using [discord.py-self](https://discordpy-self.readthedocs.io/en/latest/). Scripts need to be in `localappdata/wis/scripts` directory.
 
+## Example
+```py
+@client.listen("on_message")
+async def log_message(message):
+    if message.author.id == client.user.id:
+        await client.server.send_log(f"{message.content}") # Logs the message content to the console in the UI
+```
 ## Help
 If you encounter a bug, don't understand something in the documentation, or just need some help, ask for help in our [Discord Server](https://discord.gg/enazVRKrJm).
 
