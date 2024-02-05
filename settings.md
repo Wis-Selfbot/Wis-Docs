@@ -1,5 +1,5 @@
 # Settings
-Settings have a predefined Pydantic. This is subject to change and may be outdated. Settings are available from client.server.settings
+Settings are predefined using Pydantic models and can be accessed via `client.server.settings`. Note that the settings can change overtime, so if you encounter any inconsistencies let us know.
 
 ```py
 from typing import Literal, Optional, Any

@@ -33,21 +33,23 @@ await client.server.copy_to_clipboard(models.ClipboardData(
 ```
 
 ## update_settings(settings: dict)
-Updates the provided setting in the config file
+Updates the provided setting in the config file.
 
 **Example**
 ```py
 await client.server.update_settings({ "sniper": {"enabled": new_state}})
 ```
-**Example usage**
+**Example Usage**
 ```py
 @client.command()
 async def sniper(ctx):
-    #Turns sniper either on or off
-    
+
+    # Gets the current settings
     settings = client.server.settings
 
+    # Toggles the "sniper" setting
     new_state = not settings.sniper.enabled
 
+    # Updates the setting with the new_state
     await client.server.update_settings({ "sniper": {"enabled": new_state}})
 ```
