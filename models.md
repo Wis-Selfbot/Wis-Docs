@@ -6,7 +6,7 @@ All predefind models use this format: models.ModelName
 |-----------|-------------|----------|-------------|
 | summary   | string | No | Title of the alert |
 | message   | string | No | Message of the alert |
-| severity  | [Severity](ttps://github.com/Wis-Selfbot/Wis-Docs/blob/main/literals.md#severity)? | Yes | Severity level of the alert |
+| severity  | [Severity](https://github.com/Wis-Selfbot/Wis-Docs/blob/main/literals.md#severity)? | Yes | Severity level of the alert |
 | windows   | boolean? | Yes | Boolean for Windows alert |
 
 ## ClipboardData(info, text)
