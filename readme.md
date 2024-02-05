@@ -7,9 +7,10 @@ Welcome to the documentation for custom scripts in Wis.
 1. [Introduction](#introduction)
 2. [Libraries](#libraries)
 3. [Examples](https://github.com/Wis-Selfbot/Wis-Docs/blob/main/examples.md)
-4. [Models](https://github.com/Wis-Selfbot/Wis-Docs/blob/main/models.md)
-5. [Functions](https://github.com/Wis-Selfbot/Wis-Docs/blob/main/functions.md)
-6. [Literals](https://github.com/Wis-Selfbot/Wis-Docs/blob/main/literals.md)
+4. [Functions](https://github.com/Wis-Selfbot/Wis-Docs/blob/main/functions.md)
+5. [Models](https://github.com/Wis-Selfbot/Wis-Docs/blob/main/models.md)
+6. [Settings](https://github.com/Wis-Selfbot/Wis-Docs/blob/main/settingsModel.md)
+7. [Literals](https://github.com/Wis-Selfbot/Wis-Docs/blob/main/literals.md)
 
 ## Introduction
 
